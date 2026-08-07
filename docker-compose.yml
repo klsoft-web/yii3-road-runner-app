@@ -1,0 +1,13 @@
+services:
+
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      # Mount for development
+      - ./src:/app/src
+      - ./config/common:/app/config/common
+      - ./config/console:/app/config/console
+      - ./config/web:/app/config/web
+    command: ./rr serve
