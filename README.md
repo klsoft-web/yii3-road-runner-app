@@ -21,3 +21,12 @@ Open your browser to the URL [http://localhost:8080](http://localhost:8080)
     docker compose up -d 
     ```
 Open your browser to the URL [http://localhost:8080](http://localhost:8080)
+
+## Additional configuration has been added to the YII3 application template
+
+ 1. Added  "yiisoft/yii-runner-roadrunner": "^3.2" to the `composer.json`.
+ 2. Added `worker.php`.
+ 3. Added `.rr.yaml`.
+ 4. Added `Dockerfile`.
+ 5. Added `docker-compose.yml`.
+ 6. Modified `.dockerignore`.
