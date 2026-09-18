@@ -1,4 +1,4 @@
-# YII3-ROAD_RUNNER-APP
+# YII3-ROAD-RUNNER-APP
 
 The repository contains the [YII3 application template](https://github.com/yiisoft/app) and the additional configuration required to run Yii with RoadRunner.
 
